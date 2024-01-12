@@ -8,4 +8,4 @@ No external resources were used.
 About 1h.
 
 4 - What did you like about this lab? 
-I really appreciated the hands-on experience in this lab!
+I really appreciated the hands-on experience in this lab.
