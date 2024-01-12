@@ -1,0 +1,55 @@
+ltql@Wenxues-Air CS5008 % git clone https://github.khoury.northeastern.edu/CS5008SP2024NIGHT/wylliefang.git
+Cloning into 'wylliefang'...
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.khoury.northeastern.edu/CS5008SP2024NIGHT/wylliefang.git/'
+ltql@Wenxues-Air CS5008 % ssh wylliefang@login.khoury.northeastern.edu
+wylliefang@login.khoury.northeastern.edu's password: 
+=================================================================
+You have logged into login-students.khoury.northeastern.edu
+=================================================================
+Linux at Khoury College
+You may SSH to alternative linux machines.
+Alternative linux machines are available if connected to NUwave, 
+or if connected to Northeastern VPN.
+The hostnames are linux-[071-085].khoury.northeastern.edu
+=================================================================
+Linux Beta
+The Beta server may contain newer software versions
+Available at login-beta.khoury.northeastern.edu
+=================================================================
+This server DOES NOT send emails.
+Please use the faculty login server to send emails.
+=================================================================
+If you encounter any issues, please contact us via email
+khoury-systems@northeastern.edu 
+=================================================================
+Last login: Thu Jan 11 23:14:15 2024 from 174.21.81.17
+[wylliefang@login-students ~]$ git clone https://github.khoury.northeastern.edu/CS5008SP2024NIGHT/wylliefang.git
+Cloning into 'wylliefang'...
+Username for 'https://github.khoury.northeastern.edu': wylliefang
+Password for 'https://wylliefang@github.khoury.northeastern.edu': 
+remote: Write access to repository not granted.
+fatal: unable to access 'https://github.khoury.northeastern.edu/CS5008SP2024NIGHT/wylliefang.git/': The requested URL returned error: 403
+[wylliefang@login-students ~]$ git clone https://github.khoury.northeastern.edu/CS5008SP2024NIGHT/wylliefang
+Cloning into 'wylliefang'...
+Username for 'https://github.khoury.northeastern.edu': wylliefang
+Password for 'https://wylliefang@github.khoury.northeastern.edu': 
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+[wylliefang@login-students ~]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .bash_history
+        wylliefang/
+
+nothing added to commit but untracked files present (use "git add" to track)
+[wylliefang@login-students ~]$ git add whatever_file.c
+fatal: pathspec 'whatever_file.c' did not match any files
+[wylliefang@login-students ~]$ ls
+README.md  wylliefang
+[wylliefang@login-students ~]$ quit
