@@ -1,5 +1,51 @@
 # Assignment 8: Finding Anagrams with Hashtables
 
+1. The result is in the res_anagrams.txt
+$  make all && ./main
+
+2. Pass googletest
+$ make test_suite
+$ ./test_suite
+
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Hashtable
+[ RUN      ] Hashtable.Create
+[       OK ] Hashtable.Create (0 ms)
+[ RUN      ] Hashtable.AddOneRemoveOne
+--0x159e07ac0 672807365 valueForAddOneRemoveOne
+head: 0x159e07ac0
+tail: 0x159e07ac0
+element: 1
+ptr: 0x159e07ac0
+Remove HEAD
+[       OK ] Hashtable.AddOneRemoveOne (0 ms)
+[ RUN      ] Hashtable.AddOneElemDestroy
+[       OK ] Hashtable.AddOneElemDestroy (0 ms)
+[ RUN      ] Hashtable.AddOneElemTwoTimes
+[       OK ] Hashtable.AddOneElemTwoTimes (0 ms)
+[ RUN      ] Hashtable.AddOneRemoveTwice
+head: 0x159e07910
+tail: 0x159e07910
+element: 1
+ptr: 0x159e07910
+Remove HEAD
+[       OK ] Hashtable.AddOneRemoveTwice (0 ms)
+[ RUN      ] Hashtable.AddMultipleItems
+[       OK ] Hashtable.AddMultipleItems (0 ms)
+[ RUN      ] Hashtable.LookupInHashtable
+[       OK ] Hashtable.LookupInHashtable (0 ms)
+[ RUN      ] Hashtable.TwoElemsOneBucket
+[       OK ] Hashtable.TwoElemsOneBucket (0 ms)
+[----------] 8 tests from Hashtable (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+
+
+# ###########################################################################
+
 Details are in the write-up on Canvas. 
 
 Provided files: 
