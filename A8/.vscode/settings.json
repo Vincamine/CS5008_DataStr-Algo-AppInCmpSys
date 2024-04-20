@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "hashtable_easy.h": "c",
+        "__node_handle": "c"
+    }
+}
