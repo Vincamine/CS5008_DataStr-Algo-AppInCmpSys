@@ -38,7 +38,5 @@ This repository is a **practical and in-depth guide to mastering low-level progr
 - **Systems Programming**: Using C to interact with low-level hardware features.
 
 ## Author
-[Your Name]  
-*CS Enthusiast | Low-Level Systems Expert | Algorithm Optimizer*
-
+Wenxue(Wyllie) Fang
 
