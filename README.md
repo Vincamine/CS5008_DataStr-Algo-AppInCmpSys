@@ -19,8 +19,7 @@ This repository is a **comprehensive and hands-on guide** to **Data Structures a
 ## Setup Instructions
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/CS5008-DSA.git
-   cd CS5008-DSA
+   git clone https://github.com/Vincamine/Ultimate-DSA-Lab.git
    ```
 2. Compile the project:
    ```sh
